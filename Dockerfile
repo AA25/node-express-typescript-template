@@ -17,8 +17,8 @@ RUN npm install
 # Copy all other source code to work directory
 COPY . /app
 
-# Run TypeScript
-RUN npm run tsc
+# Run TypeScript and Checks
+RUN npm run lint && npm run tsc
 
 # Run tests
 RUN npm test

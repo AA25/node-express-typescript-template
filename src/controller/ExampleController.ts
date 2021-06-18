@@ -12,9 +12,9 @@ export class ExampleController {
 
     // Using arrow function to ensure correct context of `this` is used
     // "Methods do not capture `this`"
-    public handleExampleGetRequest = (req: Request, res: Response) => {
+    public handleExampleGetRequest = (req: Request, res: Response): Response => {
         const result = this.exampleService.getResult();
 
-        res.status(200).json({message: result})
+        return res.status(200).json({message: result})
     }
 }

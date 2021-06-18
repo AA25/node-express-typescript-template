@@ -14,4 +14,4 @@
     * Run tests
         * `npm test`
 
-TODO: Linting, and other tests
+TODO: prettier, and other tests

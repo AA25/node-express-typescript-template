@@ -3,7 +3,7 @@ import * as core from "express-serve-static-core";
 import { exampleRouter } from "./routes/ExampleRouter";
 
 const app: core.Express = express();
-const port: number = 5000;
+const port = 5000;
 
 app.use("/exampleApi", exampleRouter)
 
