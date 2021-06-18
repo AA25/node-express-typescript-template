@@ -13,5 +13,3 @@
         * `npm start`
     * Run tests
         * `npm test`
-
-TODO: prettier, and other tests
