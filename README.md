@@ -1,3 +1,7 @@
+#### Node template project
+This is my template project for creating a Node express application using TypeScript. It also includes unit testing,
+ prettier, eslint and docker integration.  
+
 ### Running project (via docker)
 * Run docker
     * (Prerequisite: Install docker)
@@ -13,3 +17,5 @@
         * `npm start`
     * Run tests
         * `npm test`
+    * Run lint check (+ fix)
+        * `npm run lint` (`npm run lint-fix`)
